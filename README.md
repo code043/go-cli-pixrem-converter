@@ -17,19 +17,23 @@ Command line interface to convert pixel and rem units.
 
     go mod run main.go goc -r 1
 
-    1rem is equal to 16px
+output: 1rem is equal to 16px
 
     go mod run main.go goc -p 10
 
-    10px is equal to 0.625rem
+output: 10px is equal to 0.625rem
 
 ### Build the project:
 
     go build main.go
 
+###
+
     ./main goc -p 10
 
-    10px is equal to 0.625rem
+###
+
+outpu: 10px is equal to 0.625rem
 
 ## Resources:
 
