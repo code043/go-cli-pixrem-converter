@@ -16,10 +16,10 @@ func main(){
 		Short: "Pixel and rem conversor.",
 		Run: func(cmd *cobra.Command, args []string){
 			if px != ""{
-				pixelunit.PixelToRem(px, px)				
+				pixelunit.PixelToRem(px)				
 			}
 			if rem != ""{
-				remunit.RemToPx(rem, rem)
+				remunit.RemToPx(rem)
 			}			
 		},
 	}
